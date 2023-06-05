@@ -1,10 +1,6 @@
 
-const TheFooter  = () => {
-  return (
-    <footer className="footer-container">
-      Created by &copy;Kiver
-    </footer>
-  )
-}
+const TheFooter = () => {
+  return <footer className="container">Created by &copy;Kiver</footer>;
+};
 
-export  {TheFooter}; 
+export { TheFooter };
